@@ -144,7 +144,7 @@ ul{
 }
 .company-logo img{
     width: 150px;
-     height: 60px;
+    height: 60px;
 }
 
 nav{
@@ -178,7 +178,7 @@ nav{
 /* Header */
 
 header{
-    margin-top: 3%;
+    margin-top: 5%;
 }
 
 .header-left{
