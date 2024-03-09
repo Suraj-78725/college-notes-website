@@ -54,14 +54,16 @@
           <i class="fa-solid fa-bars"></i>
         </a>
       </div>
-      <div class="outerbox">
-        <div class="sliderbox">
-          <img src="css/assets/uslide.png">
-          <img src="css/assets/uslide.png">
-          <img src="css/assets/uslide.png">
-          <img src="css/assets/uslide.png">    
-        </div>
+       <!-- <marquee behavior="slide" direction="left">Here is some slide-in text... coming from the right.</marquee> -->
+    <div class="scrolling-text-container">
+      <div class="scrolling-text-inner" style="--marquee-speed: 20s; --direction:scroll-left" role="marquee">
+          <div class="scrolling-text">
+              <!-- <div class="scrolling-text-item">Your First Announcement</div> -->
+              <div class="scrolling-text-item"><p><b>New Update !</b> In third year question paper section new question papers added </p></div>
+              <!-- Add More Items Here -->
+          </div>
       </div>
+  </div>
     </nav>
 
     <header>
@@ -246,7 +248,10 @@
       </footer>
    <script src="js/typed.js"></script>
   <script src="js/index.js"></script>
+
+  <script src="js/singa.js"></script>
   <script src="https://kit.fontawesome.com/f0888c81d1.js" crossorigin="anonymous"></script>
-    <script>!function(){var e,t,n,a;window.MyAliceWebChat||((t=document.createElement("div")).id="myAliceWebChat",(n=document.createElement("script")).type="text/javascript",n.async=!0,n.src="https://widget.myalice.ai/index.js",(a=(e=document.body.getElementsByTagName("script"))[e.length-1]).parentNode.insertBefore(n,a),a.parentNode.insertBefore(t,a),n.addEventListener("load",(function(){MyAliceWebChat.init({selector:"myAliceWebChat",number:"dbatu_notes_bot",message:"",color:"#2AABEE",channel:"tg",boxShadow:"none",text:"Notes Bot",theme:"light",position:"left",mb:"20px",mx:"20px",radius:"20px"})})))}();</script>
+    <script>!function(){var e,t,n,a;window.MyAliceWebChat||((t=document.createElement("div")).id="myAliceWebChat",(n=document.createElement("script")).type="text/javascript",n.async=!0,n.src="https://widget.myalice.ai/index.js",(a=(e=document.body.getElementsByTagName("script"))[e.length-1]).parentNode.insertBefore(n,a),a.parentNode.insertBefore(t,a),n.addEventListener("load",(function(){MyAliceWebChat.init({selector:"myAliceWebChat",number:"dbatu_notes_bot",message:"",color:"#2AABEE",channel:"tg",boxShadow:"none",text:"Notes Bot",theme:"light",position:"left",mb:"20px",mx:"20px",radius:"20px"})})))}();
+    let c=document.getElementsByClassName("small-bold-text").style.color="red";</script>
   </body>
   </html>

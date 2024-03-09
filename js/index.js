@@ -55,3 +55,6 @@ window.onclick = function(event) {
     closeAllDropdowns();
   }
 }
+
+// let c= document.getElementsByClassName("hover-links")
+// c.style.color="red";
